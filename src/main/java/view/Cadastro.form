@@ -166,6 +166,9 @@
       </AuxValues>
     </Component>
     <Component class="javax.swing.JPasswordField" name="senhaTxt">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="senhaTxtActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="jButton3">
       <Properties>

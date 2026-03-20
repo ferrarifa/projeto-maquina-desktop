@@ -87,6 +87,12 @@ public class Cadastro extends javax.swing.JFrame {
             }
         });
 
+        senhaTxt.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                senhaTxtActionPerformed(evt);
+            }
+        });
+
         jButton3.setBackground(new java.awt.Color(255, 0, 51));
         jButton3.setFont(new java.awt.Font("Segoe UI Semibold", 0, 14)); // NOI18N
         jButton3.setForeground(new java.awt.Color(255, 255, 255));
@@ -236,6 +242,10 @@ public class Cadastro extends javax.swing.JFrame {
         login.setVisible(true);    
         this.dispose();
     }//GEN-LAST:event_voltarTxtActionPerformed
+
+    private void senhaTxtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_senhaTxtActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_senhaTxtActionPerformed
 
     /**
      * @param args the command line arguments
